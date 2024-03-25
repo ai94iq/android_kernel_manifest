@@ -3,7 +3,7 @@
 ## Repo Init ##
 
 ```bash
-repo init -u https://github.com/StatiXOS/android_kernel_manifest.git -b android-msm-xiaomi-4.19-android11
+repo init -u https://github.com/ai94iq/android_kernel_manifest.git -b android-msm-xiaomi-4.19-android11
 ```
 
 ## Sync Source ##
