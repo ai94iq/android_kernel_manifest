@@ -22,7 +22,7 @@
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
   <!-- Xiaomi SM8250 Kernel -->
-  <project path="kernel/msm-4.19" name="ai94iq/android_kernel_xiaomi_sm8250" remote="github">
+  <project path="kernel/msm-4.19" name="ai94iq/android_kernel_xiaomi_sm8250" remote="github" revision="statix-udc" clone-depth="1000" >
     <linkfile dest="build.config.xiaomi.alioth" src="build.config.xiaomi.alioth" />
     <linkfile dest="build.config.xiaomi.apollo" src="build.config.xiaomi.apollo" />
     <linkfile dest="build.config.xiaomi.cas" src="build.config.xiaomi.cas" />
